@@ -6,4 +6,4 @@
 
 버튼을 누르면 다이얼 화면으로 이동
 
-(res - AndroidManifest.xml - Permission - Name : android.permission.CALL_PHONE / Max SDK version : 17 )
+(설정 : res - AndroidManifest.xml - Permission - Name : android.permission.CALL_PHONE / Max SDK version : 17 )
