@@ -1,0 +1,10 @@
+package com.example.growling;
+
+import android.os.Bundle;
+
+public class LoadingActivity extends Activity {
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+	}
+	
+}
