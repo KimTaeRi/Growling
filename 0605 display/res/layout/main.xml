@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/growling_main" >
+
+    <Button
+        android:id="@+id/Delivery"
+        android:layout_width="217dip"
+        android:layout_height="64dip"
+        android:layout_gravity="center"
+
+        android:background="@drawable/delivery" />
+
+    <Button
+        android:id="@+id/NoneDelivery"
+        android:layout_width="217dip"
+        android:layout_height="64dip"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dip"
+        
+        android:background="@drawable/none_delivery" />
+
+    <Button
+        android:id="@+id/ShcoolRestraunt"
+        android:layout_width="217dip"
+        android:layout_height="64dip"
+        android:layout_gravity="center"
+        android:layout_marginTop="180dip"
+        
+        android:background="@drawable/school" />
+
+</FrameLayout>
