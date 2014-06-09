@@ -1,0 +1,3 @@
+# Module growling1
+# RPC service class, partial path of RPC policy file
+com.example.test.client.GreetingService, 117A4676CE93C45C79FB056A0CA3E96C.gwt.rpc
