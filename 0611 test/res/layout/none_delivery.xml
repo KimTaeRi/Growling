@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/growling_none_delivery">
+
+    <Button
+        android:id="@+id/Cup"
+        android:layout_width="250dip"
+        android:layout_height="40dip"
+        android:layout_marginTop="35dip"
+        android:background="#0000"
+        />
+    
+    <Button
+        android:id="@+id/Cup_re"
+        android:layout_width="90dip"
+        android:layout_height="40dip"
+        android:layout_marginTop="35dip"
+        android:layout_marginLeft="270dip"
+        android:background="#0000"
+        />
+    
+    <Button
+        android:id="@+id/Sanukki"
+        android:layout_width="250dip"
+        android:layout_height="40dip"
+        android:layout_marginTop="2dip"
+        android:layout_below="@+id/Cup"
+        android:background="#0000"
+        />
+    
+    <Button
+        android:id="@+id/Sanukki_re"
+        android:layout_width="90dip"
+        android:layout_height="40dip"
+        android:layout_marginTop="2dip"
+        android:layout_below="@+id/Cup_re"
+        android:layout_marginLeft="270dip"
+        android:background="#0000"
+        />
+
+</RelativeLayout>

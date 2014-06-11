@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/growling_hero_menu">
+    
+    <Button
+        android:id="@+id/phone"
+        android:layout_width="80dip"
+        android:layout_height="27dip"
+        android:layout_marginLeft="270dip"
+        android:layout_marginTop="2dip"
+        android:background="@drawable/phone" />
+   
+</RelativeLayout>
