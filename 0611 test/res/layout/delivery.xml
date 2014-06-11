@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/growling_delivery">
+
+    <Button
+        android:id="@+id/Hero"
+        android:layout_width="250dip"
+        android:layout_height="40dip"
+        android:layout_marginTop="35dip"
+        android:background="#0000"
+        />
+    
+    <Button
+        android:id="@+id/Hero_re"
+        android:layout_width="90dip"
+        android:layout_height="40dip"
+        android:layout_marginTop="35dip"
+        android:layout_marginLeft="270dip"
+        android:background="#0000"
+        />
+
+    <Button
+        android:id="@+id/Yoon"
+        android:layout_width="250dip"
+        android:layout_height="40dip"
+        android:layout_marginTop="2dip"
+        android:layout_below="@+id/Hero"
+        android:background="#0000"
+        />
+    
+    <Button
+        android:id="@+id/Yoon_re"
+        android:layout_width="90dip"
+        android:layout_height="40dip"
+        android:layout_marginTop="2dip"
+        android:layout_below="@+id/Hero_re"
+        android:layout_marginLeft="270dip"
+        android:background="#0000"
+        />
+
+    <Button
+        android:id="@+id/pichihome"
+        android:layout_width="250dip"
+        android:layout_height="40dip"
+        android:layout_marginTop="2dip"
+        android:layout_below="@+id/Yoon"
+        android:background="#0000"
+        />
+    
+    <Button
+        android:id="@+id/pichihome_re"
+        android:layout_width="90dip"
+        android:layout_height="40dip"
+        android:layout_marginTop="2dip"
+        android:layout_below="@+id/Yoon_re"
+        android:layout_marginLeft="270dip"
+        android:background="#0000"
+        />
+
+</RelativeLayout>
